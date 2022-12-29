@@ -11,7 +11,7 @@ export const Proyects = () => {
     {
       title: "App varias",
       description: "Apps sencillas para practica y entretenimiento.",
-      url: "github.com/josesoloaga",
+      url: "Proximamente...",
       urlLink: "https://github.com/josesoloaga",
     },
     {
@@ -23,8 +23,6 @@ export const Proyects = () => {
   ];
   return (
     <section id="proyects-sec">
-      <h2>Proyectos</h2>
-
       <ul className="container-proyect">
         {proyects.map((proyect, index) => {
           const { title, description, url, urlLink } = proyect;

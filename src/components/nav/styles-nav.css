@@ -4,19 +4,20 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  opacity: 0.6;
+  align-items: baseline;
+  opacity: 0.8;
   background-color: rgb(54, 54, 53);
 }
 
 nav.nav-menu ul {
   list-style: none;
   display: flex;
-  flex-flow: row-reverse;
+  flex-flow: row;
   flex-wrap: wrap-reverse;
   text-decoration: none;
 }
 .nav-menu ul li {
-  margin: 0.5rem;
+  margin-right: 1rem;
   font-family: "Chivo Mono", monospace;
   cursor: pointer;
 }
