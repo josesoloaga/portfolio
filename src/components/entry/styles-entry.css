@@ -1,0 +1,16 @@
+.info-div {
+  display: flex;
+  flex-direction: column;
+  max-width: 26rem;
+  justify-content: center;
+  margin: 5rem;
+}
+
+
+.puesto {
+    color: rgb(160, 162, 163);
+    opacity: 0.8;
+    font-size: xx-large;
+    margin-bottom: 2rem;
+  }
+  

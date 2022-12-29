@@ -1,0 +1,35 @@
+main {
+  display: flex;
+  justify-content: space-evenly;
+  background: rgb(107, 108, 108);
+  background: linear-gradient(0deg, rgb(74, 75, 75) 0%, rgb(20, 20, 20) 100%);
+
+}
+main div img {
+  max-width: 20rem;
+  height:100%;
+  border-radius: 2px;
+  overflow: hidden;
+  position: static;
+
+}
+main div h1 {
+  font-size: 70px;
+}
+
+main div p {
+  font-family: "Chivo Mono", monospace;
+  font-size: large;
+  margin-top: 1rem;
+}
+.ver-button {
+  position: absolute;
+  top: 90%;
+  right: 50%;
+}
+
+.info-container{
+  max-width: 80%;
+
+
+}
