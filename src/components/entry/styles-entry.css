@@ -6,11 +6,27 @@
   margin: 5rem;
 }
 
-
 .puesto {
-    color: rgb(57, 59, 59);
-    opacity: 0.8;
-    font-size: xx-large;
-    margin-bottom: 2rem;
+  color: rgb(246, 250, 250);
+  opacity: 0.8;
+  font-size: xx-large;
+  margin-bottom: 2rem;
+  display: block;
+  border-right: 2px solid;
+  width: 19ch;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(19), blink 0.5s infinite step-end alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
   }
-  
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}

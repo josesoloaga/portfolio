@@ -1,9 +1,8 @@
 main {
   display: flex;
   justify-content: space-evenly;
-  background: rgb(107, 108, 108);
-  background-image: url("../../images/17927.jpg");
-  background-size: cover;
+  background: rgb(45, 46, 46);
+  background: linear-gradient(176deg, rgb(37, 37, 37) 0%, rgb(91, 92, 92) 98%);
 }
 main div img {
   max-width: 20rem;
@@ -21,6 +20,7 @@ main div p {
   font-size: large;
   margin-top: 1rem;
 }
+
 .ver-button {
   position: absolute;
   top: 90%;

@@ -20,6 +20,8 @@ nav.nav-menu ul {
   margin-right: 1rem;
   font-family: "Chivo Mono", monospace;
   cursor: pointer;
+  
+  
 }
 
 .links li a img {
@@ -59,3 +61,4 @@ nav.nav-menu ul {
   cursor: pointer;
   border-bottom: solid white;
 }
+

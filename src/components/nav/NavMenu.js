@@ -1,25 +1,36 @@
 import "./styles-nav.css";
 
 export const NavMenu = (props) => {
-
-const {stateMain,setStateMain} = props;
-  console.log("props  en Nav Menu",stateMain);
+  const { stateMain, setStateMain } = props;
+  console.log("props  en Nav Menu", stateMain);
 
   return (
     <nav className="nav-menu">
       <div>
         <ul>
-        <li>
+          <li>
             <h2 onClick={() => setStateMain("entry")}>Presentacion</h2>
           </li>
           <li>
             <h2 onClick={() => setStateMain("proyects")}>Proyectos</h2>
           </li>
           <li>
-            <h2 onClick={() => {setStateMain("skills")}}>Skills</h2>
+            <h2
+              onClick={() => {
+                setStateMain("skills");
+              }}
+            >
+              Skills
+            </h2>
           </li>
           <li>
-            <h2 onClick={() => {setStateMain("contact")}}>Contacto</h2>
+            <h2
+              onClick={() => {
+                setStateMain("contact");
+              }}
+            >
+              Contacto
+            </h2>
           </li>
         </ul>
       </div>
