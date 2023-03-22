@@ -1,5 +1,6 @@
 .nav-menu {
   position: sticky;
+  width: 1fr;
   top: 0px;
   display: flex;
   flex-direction: row;
@@ -18,6 +19,7 @@ nav.nav-menu ul {
 }
 .nav-menu ul li {
   margin-right: 1rem;
+  margin-left: 0.5rem;
   font-family: "Chivo Mono", monospace;
   cursor: pointer;
   

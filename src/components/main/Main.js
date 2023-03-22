@@ -27,10 +27,15 @@ export const Main = (props) => {
 
   return (
     <main>
-      <div className="info-container">{switchMain()}</div>
-      <div>
-        <img src="jose.jpg" alt="fotoJose" className="foto-portada"></img>
+      <div className="info-container">
+        <div>{switchMain()}</div>
       </div>
+
+      {stateMain === "entry" && (
+        <div className="div-foto-portada">
+          <img src="jose.jpg" alt="fotoJose" className="foto-portada"></img>
+        </div>
+      )}
     </main>
   );
 };

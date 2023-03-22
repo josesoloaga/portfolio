@@ -1,36 +1,49 @@
 main {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
   background: rgb(45, 46, 46);
   background: linear-gradient(176deg, rgb(37, 37, 37) 0%, rgb(91, 92, 92) 98%);
-  overflow: hidden;
-}
-main div img {
-  border-radius: 2px;
-  overflow:hidden;
-  position:static;
-}
-main div h1 {
-  font-size: 70px;
-}
-
-main div p {
-  font-family: "Chivo Mono", monospace;
-  font-size: large;
-  margin-top: 1rem;
-}
-
-.ver-button {
-  position: absolute;
-  top: 90%;
-  right: 50%;
 }
 
 .info-container {
-  max-width: 80%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  min-width: 70vw;
+  position: relative;
+  z-index: 0;
+}
+.info-div {
+  position: relative;
+  z-index: 9;
+  margin: auto;
 }
 
+.div-foto-portada {
+  position: relative;
+  z-index: 0;
+  margin: auto;
+  overflow: hidden;
+}
 .foto-portada {
-  height: 100vh;
-  min-width: 20rem;
+  max-width: 40vh;
+}
+
+@media screen and (max-width: 425px) {
+  .foto-portada {
+    max-width: 40vh;
+    opacity: 0.4;
+  }
+
+  .info-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    min-width: 60vw;
+  }
+
+
 }
