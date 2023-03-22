@@ -3,13 +3,12 @@ main {
   justify-content: space-evenly;
   background: rgb(45, 46, 46);
   background: linear-gradient(176deg, rgb(37, 37, 37) 0%, rgb(91, 92, 92) 98%);
+  overflow: hidden;
 }
 main div img {
-  max-width: 20rem;
-  height: 100%;
   border-radius: 2px;
-  overflow: hidden;
-  position: static;
+  overflow:hidden;
+  position:static;
 }
 main div h1 {
   font-size: 70px;
@@ -29,4 +28,9 @@ main div p {
 
 .info-container {
   max-width: 80%;
+}
+
+.foto-portada {
+  height: 100vh;
+  min-width: 20rem;
 }

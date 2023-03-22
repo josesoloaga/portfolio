@@ -5,7 +5,7 @@ export const ContactForm = () => {
     <div className="formContact" id="contact-sec">
       <h2>Contacto:</h2>
 
-      <form action="https://formsubmit.co/josesoloagam@gmail.com" method="POST">
+      <form action="https://formsubmit.co/0f8eee85935d5726273a9d1113f2abe2" method="POST">
         <div className="div-form-contact">
           <label htmlFor="name">¿Cómo te llamas?</label>
           <input type="text" name="name" id="name"></input>
