@@ -7,10 +7,10 @@ import imageMySql from "../../images/mysql.png";
 import imageGit from "../../images/git.png";
 import imageTs from "../../images/typescript.png";
 import imageStyledComponents from "../../images/styledComponents.png";
-import imageLinux from "../../images/linux.png"
-import imageVercel from "../../images/vercel.jpg"
-import imageSupabase from "../../images/Supabase.png"
-import imageExpress from "../../images/express-js.png"
+import imageLinux from "../../images/linux.png";
+import imageVercel from "../../images/vercel.jpg";
+import imageSupabase from "../../images/Supabase.png";
+import imageExpress from "../../images/express-js.png";
 
 const react = {
   image: imageReact,
@@ -55,7 +55,7 @@ const TypeScript = {
 };
 const styledComponents = {
   image: imageStyledComponents,
-  name: "StyledComponents",
+  name: "Styled Components",
   text: "EL texto para la descripcion de la skill StyledComponents",
 };
 const linux = {
@@ -78,4 +78,18 @@ const express = {
   name: "Express",
   text: "EL texto para la descripcion de la skill ExpressJS",
 };
-export const skills = [react, html, nodeJs, mySql, css3, JS, Git, TypeScript, styledComponents, linux, vercel, supabase, express];
+export const skills = [
+  react,
+  html,
+  nodeJs,
+  mySql,
+  css3,
+  JS,
+  Git,
+  TypeScript,
+  styledComponents,
+  linux,
+  vercel,
+  supabase,
+  express,
+];

@@ -7,6 +7,7 @@
   align-items: center;
   background-color: rgb(176, 180, 184, 0.7);
   border-radius: 3px;
+  padding: 2rem;
 }
 
 .container-proyect li {
