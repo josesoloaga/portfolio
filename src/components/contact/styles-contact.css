@@ -1,83 +1,90 @@
 .formContact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .formContact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formContact form {
+  padding: 0.5rem;
+  border-radius: 3px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
 
-    padding: 1rem;
-    border-radius: 3px;
-    width: 80%;
-    margin-bottom: 2rem;
-  }
-  
-  .formContact {
-    text-align: center;
-    margin: 3rem;
-    margin-top: 3rem;
-  }
-  
-  .formContact label {
-    padding: 0.4rem;
-  }
-  
-  .formContact input {
-    opacity: .5;
-    outline: none;
-    border: 0;
-    font-weight: 600;
-    border-bottom: solid white;
-    border-radius: 3px;
-    background-color: rgb(25, 26, 26);
-    color:white;
-  }
-  
-  button.contact-button {
-    color: rgb(253, 248, 248);
-    font-family: "Chivo Mono", monospace;
-    font-weight: bolder;
-    background: rgb(25, 26, 26);
+.formContact {
+  text-align: center;
 
-    margin: 1rem;
-    border: 0px;
-    border-radius: 3px;
+  margin-top: 3rem;
+}
 
-    padding: 0.8rem;
-  }
+.formContact label {
+  padding: 0.4rem;
+}
+
+.formContact input {
+  opacity: 0.5;
+  outline: none;
+  border: 0;
+  font-weight: 600;
+  border-bottom: solid white;
+  border-radius: 3px;
+  background-color: rgb(25, 26, 26);
+  color: white;
+}
+
+button.contact-button {
+  color: rgb(253, 248, 248);
+  font-family: "Chivo Mono", monospace;
+  font-weight: bolder;
+  background: rgb(25, 26, 26);
+
+  margin: 1rem;
+  border: 0px;
+  border-radius: 3px;
+
+  padding: 0.8rem;
+}
+
+.formContact div a img {
+  width: 64px;
+  height: 68px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.formContact div a img:hover {
+  box-shadow: 1px 1px 10px 1px white;
+  margin: 1rem;
+}
+
+.div-form-contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.div-form-contact textarea {
+  color: black;
+  font-weight: 600;
+  background-color: rgb(161, 158, 158);
+  padding: 0.2rem;
+  border-radius: 3px;
+  opacity: 0.5;
+  outline: none;
+  border: 0;
+  border-bottom: solid white;
+  border-radius: 3px;
+}
+
+.formContact h4 {
+  margin: 0.5rem;
+}
+
+main {
+  justify-content: center;
   
-  .formContact div a img {
-    width: 64px;
-    height: 68px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    margin: 1rem;
-  }
-  
-  .formContact div a img:hover {
-    box-shadow: 1px 1px 10px 1px white;
-    margin: 1rem;
-  }
-  
-  .div-form-contact {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .div-form-contact textarea {
-    color:black;
-    font-weight: 600;
-    background-color: rgb(161, 158, 158);
-    padding: 0.2rem;
-    border-radius: 3px;
-    opacity: .5;
-    outline: none;
-    border: 0;
-    border-bottom: solid white;
-    border-radius: 3px;
-  }
-  
-  .formContact h4 {
-    margin: 0.5rem;
-  }
-  
+}
+
+input {
+  padding: 0.2rem;
+}

@@ -7,7 +7,6 @@ import { SkillList } from "../skills/SkillList";
 
 export const Main = (props) => {
   const { skills, stateMain } = props;
-  console.log(skills);
 
   const switchMain = () => {
     switch (stateMain) {

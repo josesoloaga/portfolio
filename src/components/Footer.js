@@ -1,7 +1,7 @@
 export const Footer = () => {
   return (
     <footer>
-      <p>Jose Soloaga Martín 2022©️</p>
+      <p>Jose Soloaga 2022©️</p>
     </footer>
   );
 };

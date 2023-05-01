@@ -9,16 +9,28 @@ export const Proyects = () => {
       urlLink: "https://github.com/josesoloaga/proyecto-viajes",
     },
     {
-      title: "App varias",
-      description: "Apps sencillas para practica y entretenimiento.",
-      url: "Proximamente...",
-      urlLink: "https://github.com/josesoloaga",
+      title: "Rick & Morty App",
+      description: "App realizada en base a prueba técnica de práctica",
+      url: "/josesoloaga/RickAndMorty-App",
+      urlLink: "https://github.com/josesoloaga/RickAndMorty-App",
     },
     {
       title: "Portfolio",
       description: "Portfolio de Presentación",
       url: "/josesoloaga/portfolio",
       urlLink: "https://github.com/josesoloaga/portfolio",
+    },
+    {
+      title: "Biblioteca-Laterea",
+      description: "App para biblioteca del colegio de Latas(Cantabria)",
+      url: "/josesoloaga/biblioteca-latera",
+      urlLink: "https://github.com/josesoloaga/biblioteca-latera",
+    },
+    {
+      title: "React-code-proof",
+      description: "App prueba de codigo de React",
+      url: "/josesoloaga/react-code-proof",
+      urlLink: "https://ninja-talent-react.vercel.app/",
     },
   ];
   return (

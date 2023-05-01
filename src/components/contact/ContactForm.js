@@ -10,10 +10,10 @@ export const ContactForm = () => {
           <label htmlFor="name">¿Cómo te llamas?</label>
           <input type="text" name="name" id="name"></input>
 
-          <label htmlFor="email">¿A que email puedo contactarte?</label>
+          <label htmlFor="email">Email de contacto:</label>
           <input type="email" name="email" id="email"></input>
 
-          <label htmlFor="affair">¿Sobre que quieres hablar?</label>
+          <label htmlFor="affair">Asunto:</label>
           <textarea name="affair" id="affair" cols="20" rows="6"></textarea>
 
           <button type="submit" className="contact-button">

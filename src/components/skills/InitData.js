@@ -5,8 +5,12 @@ import imageCss from "../../images/css-3.png";
 import imageJS from "../../images/js.png";
 import imageMySql from "../../images/mysql.png";
 import imageGit from "../../images/git.png";
-
-
+import imageTs from "../../images/typescript.png";
+import imageStyledComponents from "../../images/styledComponents.png";
+import imageLinux from "../../images/linux.png"
+import imageVercel from "../../images/vercel.jpg"
+import imageSupabase from "../../images/Supabase.png"
+import imageExpress from "../../images/express-js.png"
 
 const react = {
   image: imageReact,
@@ -44,4 +48,34 @@ const Git = {
   name: "Git",
   text: "EL texto para la descripcion de la skill GitHub",
 };
-export const skills = [react, html, nodeJs, mySql, css3, JS, Git];
+const TypeScript = {
+  image: imageTs,
+  name: "Ts",
+  text: "EL texto para la descripcion de la skill TypeScript",
+};
+const styledComponents = {
+  image: imageStyledComponents,
+  name: "StyledComponents",
+  text: "EL texto para la descripcion de la skill StyledComponents",
+};
+const linux = {
+  image: imageLinux,
+  name: "Linux",
+  text: "EL texto para la descripcion de la skill Linux",
+};
+const vercel = {
+  image: imageVercel,
+  name: "Vercel",
+  text: "EL texto para la descripcion de la skill Vercel",
+};
+const supabase = {
+  image: imageSupabase,
+  name: "Supabase",
+  text: "EL texto para la descripcion de la skill Supabase",
+};
+const express = {
+  image: imageExpress,
+  name: "Express",
+  text: "EL texto para la descripcion de la skill ExpressJS",
+};
+export const skills = [react, html, nodeJs, mySql, css3, JS, Git, TypeScript, styledComponents, linux, vercel, supabase, express];

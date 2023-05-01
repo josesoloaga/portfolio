@@ -4,11 +4,16 @@
   box-sizing: border-box;
   color: white;
 }
+body {
+  background: rgb(45, 46, 46);
+}
 
-
+footer {
+}
 
 footer p {
   color: black;
   border-bottom: solid rgb(44, 43, 43);
+  z-index: 3;
+  overflow: auto;
 }
-

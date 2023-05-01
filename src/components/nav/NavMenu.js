@@ -2,7 +2,6 @@ import "./styles-nav.css";
 
 export const NavMenu = (props) => {
   const { stateMain, setStateMain } = props;
-  console.log("props  en Nav Menu", stateMain);
 
   return (
     <nav className="nav-menu">
